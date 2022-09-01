@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.openkm</groupId>
   <artifactId>sdk4j-with-dependences</artifactId>
-  <version>1.2</version>
+  <version>3.23</version>
 
   <licenses>
     <license>
@@ -64,6 +64,19 @@
     </dependency>
   </dependencies>
 
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.4.1</version>
+        <configuration>
+          ...
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+  
   <build>
     <plugins>
       <plugin>
